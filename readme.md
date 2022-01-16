@@ -2,6 +2,8 @@
 
 Made a fight simulator that has some basic features that has basic movements like Forward, Backward, Punch, Kick and Block.
 
+Check out the game here https://kunatastic.github.io/fight-simulator/ thanks.
+
 ## Screenshots
 
 <div align="center">
