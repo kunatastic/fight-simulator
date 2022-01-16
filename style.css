@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.instruction {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 5px solid black;
+}
+li {
+  list-style: none;
+  padding: 5px 50px;
+}
