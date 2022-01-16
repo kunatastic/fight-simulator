@@ -45,13 +45,13 @@ const animate = (images, bg) => {
 const loadScene = async (scene) => {
   const imagePromises = [];
   for (let index = 1; index <= numberOfFrames[scene]; index++)
-    imagePromises.push(loadImage(`/images/${scene}/${index}.png`));
+    imagePromises.push(loadImage(`images/${scene}/${index}.png`));
   return Promise.all(imagePromises);
 };
 
 const startScene = async (scene) => {
   const images = await loadScene(scene);
-  const background = await loadImage(`/images/background.jpg`);
+  const background = await loadImage(`images/background.jpg`);
   await animate(images, background);
 };
 
